@@ -1,15 +1,15 @@
 @layer components {
     .agile {
         &__actions {
-            bottom: 8%;
-            left: 3%;
-            z-index: 3;
-            @apply absolute;
+            bottom: 8% !important;
+            left: 3% !important;
+            z-index: 3 !important;
+            @apply absolute #{!important};
         }
     
         &__nav-button {
-            @apply px-16;
-            @apply text-3xl text-white;
+            @apply px-16 #{!important};
+            @apply text-3xl text-white #{!important};
         }
     }
 }
