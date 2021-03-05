@@ -1,0 +1,30 @@
+@font-face {font-family: "TTNorms-Medium"; src: url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.eot"); src: url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.woff") format("woff"), url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6cc9926970febb2108acf12442e13d3f.svg#TTNorms-Medium") format("svg"); }
+@font-face {font-family: "BM solid"; src: url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.eot"); src: url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.woff") format("woff"), url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4dbc3587ff8991f5b8835de9f5243cd9.svg#BM solid") format("svg"); }
+@font-face {font-family: "ReceiptDemo"; src: url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.eot"); src: url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.woff") format("woff"), url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d821dfc602894bda0db9e4f546f9d444.svg#ReceiptDemo") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+@mixin ttnorm-text {
+    font-family: "TTNorms-Medium", sans-serif;
+}
+
+@mixin bmsolid-text {
+    font-family: "BM solid";
+}
+
+@mixin recpdemo-text {
+    font-family: "ReceiptDemo";
+}
+
+@mixin raleway-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+@mixin greatevibes-text {
+    font-family: 'Great Vibes', cursive;
+}
+
+@mixin roboto-text {
+    font-family: 'Roboto', sans-serif;
+}
