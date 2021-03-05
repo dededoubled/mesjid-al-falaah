@@ -1,13 +1,13 @@
 @layer components {
-    .agile__actions {
-        bottom: 8% !important;
-        left: 3% !important;
-        z-index: 3 !important;
-        @apply flex justify-between absolute #{!important};
-    }
+    // .agile__actions {
+    //     bottom: 8% !important;
+    //     left: 3% !important;
+    //     z-index: 3 !important;
+    //     @apply flex justify-between absolute #{!important};
+    // }
 
-    .agile__nav-button {
-        @apply px-16 #{!important};
-        @apply text-3xl text-white #{!important};
-    }
+    // .agile__nav-button {
+    //     @apply px-16 #{!important};
+    //     @apply text-3xl text-white #{!important};
+    // }
 }
