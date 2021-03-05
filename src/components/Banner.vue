@@ -3,7 +3,7 @@
         <agile
             :fade="true"
             :speed="2500"
-            :autoplay-speed="5000"
+            :autoplaySpeed="5000"
             :dots="false"
         >
             <template v-slot:default>
