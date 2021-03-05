@@ -4,7 +4,7 @@
             :fade="true"
             :speed="2500"
             :autoplay-speed="5000"
-            :dots="true"
+            :dots="false"
         >
             <div class="banner__slider">
                 <div class="banner__slider-overlay banner__slider-overlay--green">
