@@ -6,3 +6,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.agile__actions {
+    bottom: 8%;
+    left: 3%;
+    z-index: 3;
+    @apply flex justify-between absolute;
+}
+
+.agile__nav-button {
+    @apply px-16;
+    @apply text-3xl text-white;
+}
