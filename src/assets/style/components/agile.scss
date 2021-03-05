@@ -1,0 +1,15 @@
+@layer components {
+    .agile {
+        &__actions {
+            bottom: 8%;
+            left: 3%;
+            z-index: 3;
+            @apply absolute;
+        }
+    
+        &__nav-button {
+            @apply px-16;
+            @apply text-3xl text-white;
+        }
+    }
+}
