@@ -50,13 +50,13 @@
             </template>
 
             <template v-slot:prevButton>
-                <font-awesome-layers class="">
+                <font-awesome-layers class="agile__nav-button">
                     <font-awesome-icon :icon="faArrowLeft"/>
                 </font-awesome-layers>
             </template>
 
             <template v-slot:nextButton>
-                <font-awesome-layers class="">
+                <font-awesome-layers class="agile__nav-button">
                     <font-awesome-icon :icon="faArrowRight" />
                 </font-awesome-layers>
             </template>
