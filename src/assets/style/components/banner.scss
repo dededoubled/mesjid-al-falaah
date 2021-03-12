@@ -8,7 +8,6 @@
 
     .banner {
         @include raleway-text;
-        @apply w-10/12 mx-auto;
 
         &__slider:nth-child(1) {
             width: 100%;
